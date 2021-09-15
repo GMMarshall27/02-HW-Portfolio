@@ -34,6 +34,13 @@ h2 {
 img{
     border: 5px solid teal;
 }
+
+.avatar{
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
 .banner {
     height: 150px;
     margin-bottom: 25px;
@@ -44,11 +51,11 @@ img{
 }
 .banner h2{
     position: absolute;
-    top: 200px;
+    top: 250px;
     right: 5%;
     font-size: 25px;
-    color:crimson;
-    background-color: teal;
+    color:teal;
+    background-color: white;
     padding: 10px;
 }
 
@@ -73,26 +80,15 @@ img{
 }
 
 .center{
-    display: block;
-    margin-left: auto;
+    display: inline;
+    margin-left: 25px;
     margin-right: auto;
     width:50%;
+   
 }
 .container-block{
     position: relative;
 }
-
-.text-block {
-    position: absolute;
-    bottom:250px;
-    left:150px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-   
-}
-
 
 .contact {
     margin-top: 25px;
@@ -114,20 +110,24 @@ img{
     padding: 15px;
 }
 
-.row{
-    display: flex;
-    flex-flow: row wrap;
-}
-
 .column{
-    
+    justify-content: flex-end;
     
 }
-
 .content{
-    background-color: white;
+    position: center;
+    display: flex;
+    margin: 1%;
+    margin-right: 15%;
+    flex: column wrap;
+    padding: 2%;
     padding:10px;
 }
+
+.spacing {
+    padding-right: 10px;
+}
+
 
 #myImg {
     cursor: pointer;
