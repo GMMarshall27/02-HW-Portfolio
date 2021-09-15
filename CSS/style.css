@@ -1,8 +1,9 @@
-
+/*header section */
 header h1 {
     font-size: 40px;
     margin-top: 25px;
 }
+/* changes font at the header and floats the info to the right*/
 header nav{
     padding: 15px;
     margin-right: 20px;
@@ -23,17 +24,18 @@ header nav ul li{
 h2 {
     font-size: 30px;
 }
-
+/*adds border to all images*/
 img{
     border: 5px solid teal;
 }
-
+/* specs of how avatar picture was made in header*/
 .avatar{
     vertical-align: middle;
     width: 100px;
     height: 100px;
     border-radius: 50%;
 }
+/* this is image of banner and its size/positioning on the page*/
 .banner {
     height: 150px;
     margin-bottom: 25px;
@@ -42,6 +44,7 @@ img{
     background-size: cover;
     background-position: center;
 }
+/*text box on banner*/
 .banner h2{
     position: absolute;
     top: 250px;
@@ -51,11 +54,11 @@ img{
     background-color: white;
     padding: 10px;
 }
-
+/*main section*/
 .container {
     display:flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     width: 90%;
     margin: 50px auto;
     
@@ -72,7 +75,7 @@ img{
     padding-right: 15px;
 }
 
-
+/*centers surfing image*/
 .center{
     display: inline;
     margin-left: 25px;
@@ -90,7 +93,7 @@ img{
     color: navy;
 }
 
-
+/* flex box for all contact info*/
 .info-row{
     display: flex;
     flex-flow:row wrap;
@@ -105,7 +108,8 @@ img{
 }
 
 .column{
-    justify-content: flex-end;
+
+    justify-content: center;
     
 }
 .content{
@@ -113,7 +117,7 @@ img{
     display: flex;
     margin: 1%;
     margin-right: 15%;
-    flex: column wrap;
+    flex: row wrap;
     padding: 2%;
     padding:10px;
 }
@@ -122,24 +126,25 @@ img{
   padding-left:25px;
 }
 
-
+/*changes cursor when over image*/
 #myImg {
     cursor: pointer;
     transition: 0.3s;
 }
-
+/*change opacity when cursor hovers over image*/
 #myImg:hover{
     opacity:0.7;
 }
-
+/*color for computer screens*/
 @media screen and (max-width: 900px) {
-    .column {
-        width: 50%;
+    main {
+        background-color: white;
     }
 }
-
+/* change back ground color for mobile phones*/
 @media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
+    main {
+        background-color: lightcoral;
+        margin: 1em 2em;
     }
 }
