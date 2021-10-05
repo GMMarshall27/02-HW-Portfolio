@@ -11,105 +11,87 @@
 <body>
     <header>
         <h1>Garrett Marshall</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#About-Me">About Me</a>
-                </li>
-                <li>
-                    <a href="#Work">Work</a>
-                </li>
-                <li>
-                    <a href="#Contact-Me">Contact Me</a>
-                </li>
+        <nav> 
+            <a href="#About-Me">About Me</a>
+            <a href="#Work">Work</a>
+            <a href="#Contact-Me">Contact Me</a>
+            <a href="#">Resume</a>
         </nav>
     </header>
-        <div class="banner">
-            <h2>Learner of Code</h2>
-        </div>
-        <main>
+        <section class="banner">
+            <div>
+                <h2>Learner of Code</h2>
+            </div>
+        </section>
+        <main class="wrapper">
             <section id="About-Me" class="container">
-                <div class="titles">
-                    <h2>About Me</h2>   
-                </div>
+                <h2>About Me</h2>   
                 <div class="container-about">
-                    <p> Helvetica put a bird on it church-key Blue Bottle banjo bespoke brucnh Etsy authentic Marfa quinoa typewriter plaid direct trade small batch wayfarers bicycle rights cliche craft beer gastropub single-origin coffee Godard Carles you probably haven't heard of them irony pickled kitsch synth sriracha gentrify literally heirloom blog Truffaut paleo scenester.
+                    <p> Helvetica put a bird on it church-key Blue Bottle banjo bespoke brucnh Etsy authentic Marfa quinoa typewriter plaid direct trade small batch wayfarers bicycle rights cliche craft beer gastropub single-origin coffee Godard Carles you probably haven't heard of them irony pickled kitsch synth sriracha gentrify literally heirloom blog Truffaut paleo scenester.</p>
 
-                    Echo Park sriracha Pintrest vegan biodiesel 90's irony Iphone kickstarter Carles crucifix kitsch narwhal dreamcather pickled trust fund selvage art party letterpress Tumblr post-ironic kogi thunder cats tonx brooklyn pitchfork odd future authentic normcore freegan leggins schlitz chambray organic tousled retro fap squid street art church-key fashion axe Wes anderson bespoke whatever gentrify banh mi you probably haven't heard of them American Apparel next level pug ugh.
-                    </p>
+                    <p>Echo Park sriracha Pintrest vegan biodiesel 90's irony Iphone kickstarter Carles crucifix kitsch narwhal dreamcather pickled trust fund selvage art party letterpress Tumblr post-ironic kogi thunder cats tonx brooklyn pitchfork odd future authentic normcore freegan leggins schlitz chambray organic tousled retro fap squid street art church-key fashion axe Wes anderson bespoke whatever gentrify banh mi you probably haven't heard of them American Apparel next level pug ugh.</p> 
                 </div>
             </section>
 
             <section id="Work" class="container" >
-                <div class="titles">
-                    <h2>Work</h2>
-                </div>
+                <h2>Work</h2>
                 <div class="container-block">
                 
-                    <a href="https://www.surfline.com/">
+                    <a href="https://www.surfline.com/" class="flex-item surf">
                     <img id="myImg" src="./IMG/surf.png" alt="surfer" style="width:75%" class="center">
+                        <div>
+                            <h4>Surf Report</h4>
+                            <span>Mern Stack</span>
+                        </div>   
                     </a>
-                    <div class="text-block-1">
-                        <h4>Surf Report</h4>
-                        <p>Mern Stack</p>
-                    </div>
-                <div class="column">
-                <div class="content">
-                    <article class="spacing">
-                        <a href="https://www.ccisolutions.com/StoreFront/category/led-video-walls">
-                        <img  id="myImg" src="./IMG/LED.jpeg" alt="Led wall image"  >
+                
+                
+                        <a href="https://www.ccisolutions.com/StoreFront/category/led-video-walls" class="flex-item led">
+                            <div>
+                                <img  id="myImg" src="./IMG/LED.jpeg" alt="Led wall image">
+                                <h4>LED Wall</h4>
+                                <span>Node/IoT</span>
+                            </div>  
                         </a>
-                    </article>
-                    <article>
-                            <h4>LED Wall:</h4>
-                            <p>Node/IoT</p>
-                         <a href="https://medium.com/@nitinpatel_20236/how-to-build-a-simple-calculator-application-with-react-js-bc10a4568bbd">
+                    
+                        <a href="https://medium.com/@nitinpatel_20236/how-to-build-a-simple-calculator-application-with-react-js-bc10a4568bbd" class="flex-item react">
                         <img id="myImg" src="./IMG/calculator.jpeg" alt="calculator image"  > 
+                            <div>
+                                <h4>Calculator</h4>
+                                <span>React/JS/CSS</span>
+                            </div>
                         </a>
-                    </article>
-                    <artilce>
-                            <h4><b>Calculator:</b></h4>
-                             <p>React/JS/CSS</p>
-                        <a href="https://www.redbubble.com/shop/pastel+jigsaw-puzzles">
+                    
+                        <a href="https://www.redbubble.com/shop/pastel+jigsaw-puzzles" class="flex-item">
+                            <div>
+                                <h4>Pastel Puzzles</h4>
+                                <span>Mern Stack</span>
+                            </div>
                         <img id="myImg" src="./IMG/puzzle.jpeg" alt="Puzzle image"  >
                         </a>
-                    </article>
-                            <h4><b>Pastel Puzzels:</b></h4>
-                                <p> Mern Stack</p>
-                    <article class="spacing">
+                    
                         <a href="https://getrunbuddy.app/">
+                            <div>
+                                <h4>Run Buddy</h4>
+                                <span>HTML/CSS</span>
+                            </div>
                         <img id="myImg" src="./IMG/run.jpeg" alt="Running image"  >
                         </a>
-                    </artcile>
-                            <h4><b>Run Buddy:</b></h4>
-                            <p>MERN Stack</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section id="Contact-Me" class="container">
-                <div class="titles">
-                    <h2> Contact </h2>
-                </div>
-                    <ul class="info-row">
-                        <li> 
+            <section id="Contact-Me" class="container contact">
+                <h2> Contact </h2>
+                    <div>
+                    <address class="info-row">
                             <a href="#706-612-3484">Phone: 706-612-3484</a>
-                        </li>
-                        <li>
                             <a href="mailto: gmmarshall27@gmail.com">Email: gmmarshall27@gmail.com</a>
-                        </li>
-                        <li>
                             <a href="https://github.com/GMMarshall27">GitHub</a>
-                        </li>
-                        <li>
                             <a href="https://twitter.com/gmmarshall?lang=en">Twitter</a>
-                        </li>
-                    </ul>
             </section>
         </main>
-    
-
 </body>
 </html>
