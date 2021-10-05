@@ -27,7 +27,7 @@ header{
     justify-content: space-between;
     flex-wrap:wrap;
     align-items: center;
-    background-color: gold;
+    
 }
 /*header section */
 header h1 {
@@ -44,6 +44,10 @@ nav{
     font-family: 'Times New Roman', Times, serif;
 }
 
+nav a{
+    color: black;
+}
+
 main{
     margin-top: 20px;
     margin-bottom: 45px;
@@ -52,6 +56,10 @@ main{
 
 h2 {
     font-size: 30px;
+    color: black;
+}
+p{
+    color: black;
 }
 /*adds border to all images*/
 img{
@@ -106,77 +114,80 @@ img{
     padding: 10px 0;
     
 }
-.container-about {
-    flex:auto;
-    padding: 20px;
+
+.container > div{
+    flex: 0 0 77%
 }
 
-.titles {
-    flex: auto;
-    border-right: 3px solid navy;
-    max-width: 10%;
-    padding-right: 15px;
+.container p{
+    margin-bottom: 20px;
 }
 
-/*centers surfing image*/
-.center{
-    display: inline;
-    margin-left: 25px;
-    margin-right: auto;
-    width:50%;
+.container-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item{
+    border: 5px solid black;
+    background-color: var(--primary);
+    color:var(--tertiary);
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50%-1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all .5s;
+    font-size: .9rem;
+
+}
+
+.flex-item:first-child{
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+.flex-item:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.flex-item div{
+    background-color: gold;
+    padding: 8px 10px
+}
+
+.contact address{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
    
 }
-.container-block{
-    position: relative;
+
+.contact address a{
+    color: black;
 }
 
-.contact {
-    margin-top: 25px;
-    
-    color: navy;
+.surf{
+    background-image: url(/IMG/surf.png);
 }
-
-/* flex box for all contact info*/
-.info-row{
-    display: flex;
-    flex-flow:row wrap;
-    align-items:center;
-    justify-content: space-evenly;
-    list-style-type: none;
+.led{
+    background-image: url(/IMG/LED.jpeg);
 }
-.info-row li{
-    text-align: right;
-    flex: 1 1 auto;
-    padding: 15px;
+.puzzel{
+    background-image: url(/IMG/puzzle.jpeg);
 }
-
-.column{
-
-    justify-content: center;
-    
+.react{
+    background-image: url(/IMG/calculator.jpeg);
 }
-.content{
-    position: center;
-    display: flex;
-    margin: 1%;
-    margin-right: 15%;
-    flex: row wrap;
-    padding: 2%;
-    padding:10px;
-}
-
-.spacing {
-  padding-left:25px;
-}
-
-/*changes cursor when over image*/
-#myImg {
-    cursor: pointer;
-    transition: 0.3s;
-}
-/*change opacity when cursor hovers over image*/
-#myImg:hover{
-    opacity:0.7;
+.running{
+    background-image: url(/IMG/run.jpeg);
 }
 /*color for computer screens*/
 @media screen and (max-width: 900px) {
@@ -191,3 +202,4 @@ img{
         margin: 1em 2em;
     }
 }
+
