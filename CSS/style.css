@@ -27,7 +27,7 @@ header{
     justify-content: space-between;
     flex-wrap:wrap;
     align-items: center;
-    background-color: var(--secondary);
+    background-color: gold;
 }
 /*header section */
 header h1 {
@@ -55,7 +55,7 @@ h2 {
 }
 /*adds border to all images*/
 img{
-    border: 5px solid teal;
+    border: 5px solid black;
 }
 /* specs of how avatar picture was made in header*/
 .avatar{
@@ -66,30 +66,44 @@ img{
 }
 /* this is image of banner and its size/positioning on the page*/
 .banner {
-    height: 150px;
-    margin-bottom: 25px;
-    margin-top: 50px;
+    min-height: 30vh;
+    padding: 2% 6%;
     background-image: url("../IMG/banner.png");
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.banner div{
+    flex: 0 0 90%;
 }
 /*text box on banner*/
 .banner h2{
-    position: absolute;
-    top: 250px;
-    right: 5%;
+    margin:0;
     font-size: 25px;
-    color:teal;
+    color: black;
     background-color: white;
-    padding: 10px;
+    padding: 5px 10px;
+    display: inline;
+    line-height: 1.2;
 }
 /*main section*/
+.wrapper{
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .container {
     display:flex;
     flex-direction: row;
-    justify-content: center;
-    width: 90%;
-    margin: 50px auto;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: 25px 0;
+    padding: 10px 0;
     
 }
 .container-about {
