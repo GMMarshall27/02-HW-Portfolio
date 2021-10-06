@@ -175,16 +175,16 @@ img{
 }
 
 .surf{
-    background-image: url(./IMG/food-pantry-shelves-8e01c831.jpeg);
+    background-image: url(../IMG/food-pantry-shelves-8e01c831.jpeg);
 }
 .led{
-    background-image: url(./IMG/code\ quiz.png);
+    background-image: url(../IMG/code\ quiz.png);
 }
 .puzzel{
     background-image: url(./IMG/puzzle.jpeg);
 }
 .react{
-    background-image: url(./IMG/weather.png);
+    background-image: url(../IMG/weather.png);
 }
 .running{
     background-image: url(./IMG/run.jpeg);
