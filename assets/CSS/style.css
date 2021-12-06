@@ -181,13 +181,13 @@ img{
     background-image: url(../IMG/code\ quiz.png);
 }
 .puzzel{
-    background-image: url(../IMG/localhost_3001_.png);
+    background-image: url(../IMG/budget\ tracker.png);
 }
 .react{
     background-image: url(../IMG/weather.png);
 }
 .running{
-    background-image: url(../IMG/run.jpeg);
+    background-image: url(../IMG/book\ search.png);
 }
 /*color for computer screens*/
 @media screen and (max-width: 980px) {
