@@ -9,4 +9,4 @@ Deployed application Link:
 https://gmmarshall27.github.io/02-HW-Portfolio/
 
 Screenshot:
-![Screen Shot 2021-09-15 at 18 46 56](https://user-images.githubusercontent.com/84820751/133519907-99c4e762-9e3f-401a-9a01-7afe91a9bc8b.png)
+![gmmarshall27 github io_02-HW-Portfolio_](https://user-images.githubusercontent.com/84820751/145265466-45a48dbb-13dd-4c96-81a7-c29576e1ded9.png)
